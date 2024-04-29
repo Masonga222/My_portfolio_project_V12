@@ -35,7 +35,7 @@ navu a {
   }
   
  
-h1 {
+.h11 {
     animation: move 10s linear infinite;
     color:green;
   }
