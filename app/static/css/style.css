@@ -35,7 +35,7 @@ a {
   }
   
  
-. h11 {
+.h11 {
     animation: move 10s linear infinite;
     color:green;
   }
@@ -59,7 +59,7 @@ a {
 
 .bt a{
 background-color:grey;
-padding: 20px 20px;
+padding: 10px 20px;
 text-decoration: none;
 font-size: 20px;
 }
