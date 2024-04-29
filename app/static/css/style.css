@@ -35,7 +35,7 @@ navu a {
   }
   
  
-.h11 {
+h1 {
     animation: move 10s linear infinite;
     color:green;
   }
@@ -59,7 +59,7 @@ navu a {
 
 .bt a{
 background-color:grey;
-padding: 50px 20px;
+padding: 8px 15px;
 text-decoration: none;
 font-size: 20px;
 }
