@@ -14,6 +14,11 @@
     width: 100%;
   }
 
+.navu a:hover{
+    color: white;
+    background-color: aqua;
+}
+
 @keyframes move {
     0% { transform: translatex(50%); }
     50% { transform: translatex(80px); }
