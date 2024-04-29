@@ -19,7 +19,7 @@
     background-color: aqua;
 }
 
-a {
+navu a {
     color:white;
     display: inline;
     padding: 20px 20px;
@@ -49,7 +49,7 @@ a {
   position: fixed;
   bottom: 0;
   width: 100%;
-  font-size: 25px;
+  font-size: 20px;
    }
 
 .bt a:hover{
@@ -59,7 +59,7 @@ a {
 
 .bt a{
 background-color:grey;
-padding: 10px 20px;
+padding: 50px 20px;
 text-decoration: none;
 font-size: 20px;
 }
