@@ -1,3 +1,10 @@
+ body {
+    background-color: rgb(153, 184, 201);
+    background-repeat:no-repeat;
+    background-position: center;    
+    background-size: 500px 650px;
+  }
+
 .navu {
     background-color:black;
     height: 40px;
@@ -6,4 +13,17 @@
     left: 0px;
     width: 100%;
   }
+
+@keyframes move {
+    0% { transform: translatex(50%); }
+    50% { transform: translatex(80px); }
+    100% { transform: translateX(0); }
+  }
+  
+ 
+ . h11 {
+    animation: move 10s linear infinite;
+    color:green;
+  }
+
 
