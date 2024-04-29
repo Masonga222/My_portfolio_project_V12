@@ -35,7 +35,7 @@ a {
   }
   
  
- h1 {
+ h11 {
     animation: move 10s linear infinite;
     color:green;
   }
@@ -51,3 +51,8 @@ a {
   width: 100%;
   font-size: 25px;
    }
+
+.bt a:hover{
+    color:black;
+    background-color: white;
+  }
