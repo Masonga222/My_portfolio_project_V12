@@ -33,12 +33,6 @@ navu a {
     50% { transform: translatex(80px); }
     100% { transform: translateX(0); }
   }
-  
- 
-.h11 {
-    animation: move 10s linear infinite;
-    color:green;
-  }
 
 
 .bt{
