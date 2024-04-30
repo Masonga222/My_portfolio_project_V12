@@ -1,0 +1,65 @@
+ body {
+    background-color: rgb(153, 184, 201);
+    background-repeat:no-repeat;
+    background-position: center;    
+    background-size: 500px 650px;
+  }
+
+.navu {
+    background-color:black;
+    height: 45px;
+    position: fixed;
+    top:0px;
+    left: 0px;
+    width: 100%;
+  }
+
+.navu a:hover{
+    color: white;
+    background-color: aqua;
+}
+
+navu a {
+    color:white;
+    display: inline;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+
+@keyframes move {
+    0% { transform: translatex(50%); }
+    50% { transform: translatex(80px); }
+    100% { transform: translateX(0); }
+  }
+
+h2{
+    animation: move 10s linear infinite;
+    color:green;
+  }
+
+
+
+.bt{
+    background-color:black;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 20px;
+   }
+
+.bt a:hover{
+    color:black;
+    background-color: white;
+  }
+
+.bt a{
+background-color:grey;
+padding: 8px 15px;
+text-decoration: none;
+font-size: 15px;
+}
